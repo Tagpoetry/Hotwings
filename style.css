@@ -1,18 +1,39 @@
-*{
+{
 color:rgb(43, 226, 226);
 flex-direction: column;
 }
-
+;
 .buttoncontainer{
     display:flex;
     flex-flow:row nowrap;
     justify-content: space-around;
 
-}
+};
 
 #logo {
     width: 19vw;
+};
+
+
+.chickenspots{
+    widows: 300px;
+    flex-direction: column;
+
+};
+
+.chickenphoto {
+
+    widows: 300px;
 }
+
+
+
+
+
+
+
+
+
 
 .example_e {
     border: none;
@@ -35,3 +56,10 @@ flex-direction: column;
         -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
         transition: all 0.3s ease 0s;
         }
+
+
+
+
+
+
+

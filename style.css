@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
 color: whitesmoke;
 flex-direction: column;
@@ -7,19 +6,11 @@ body {
     background-color: tomato;
 }
 
-=======
-{
-color:rgb(43, 226, 226);
-flex-direction: column;
-}
-;
->>>>>>> 94639307e68d5b20f049b4d3d0bc1c3266b92c54
 .buttoncontainer{
     display:flex;
     flex-flow:row nowrap;
     justify-content: space-around;
 
-<<<<<<< HEAD
 }
 .navigation {
     border-radius: 6px;
@@ -28,9 +19,6 @@ flex-direction: column;
     padding: 10px 30px 10px 30px;
 }
 
-=======
-};
->>>>>>> 94639307e68d5b20f049b4d3d0bc1c3266b92c54
 
 #logo {
     width: 19vw;

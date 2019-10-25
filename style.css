@@ -1,6 +1,9 @@
 *{
-color:rgb(43, 226, 226);
+color: whitesmoke;
 flex-direction: column;
+}
+body {
+    background-color: tomato;
 }
 
 .buttoncontainer{
@@ -9,6 +12,13 @@ flex-direction: column;
     justify-content: space-around;
 
 }
+.navigation {
+    border-radius: 6px;
+    background-color: teal;
+    border-color:thistle;
+    padding: 10px 30px 10px 30px;
+}
+
 
 #logo {
     width: 19vw;

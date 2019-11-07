@@ -27,26 +27,19 @@ body {
 
 .chickenspots{
     width: 300px;
+    height: 300px;
     flex-direction: column;
 
 };
 
 .chickenphoto {
-
-    widows: 300px;
+    width: 30px;
+    height: 30px;
+    /* widows: 300px; */
     display:block;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
-
-
-
-
-
-
 
 .example_e {
     border: none;
@@ -84,35 +77,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-        
-        
-        
-
-
-
-    /* Code for Social media button */
-
-        .fa {
-          padding: 20px;
-          font-size: 60px;
-          width: 60px;
-          text-align: center;
-          text-decoration: none;
-          border-radius: 50%;
-          color:blue;
-        }
-        
-
         /* Buttons for Menu Page*/
 
         .example_e {
@@ -141,7 +105,7 @@ body {
             transition: all 0.3s ease 0s;
             }
 
-
+/* Logos sizing code */
             
 .pic-one {
     width: 200px;
@@ -195,37 +159,71 @@ body {
     align-items: flex-end; /* Width of the outside container */
   }
   
-  /* The slider itself */
-  .slider {
-    -webkit-appearance: none;  /* Override default CSS styles */
-    appearance: none;
-    width: 100%; /* Full-width */
-    height: 25px; /* Specified height */
-    background: #d3d3d3; /* Grey background */
-    outline: none; /* Remove outline */
-    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-    transition: opacity .2s;
-  }
+
   
-  /* Mouse-over effects */
-  .slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
-  }
-  
-  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
-  .slider::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
-    appearance: none;
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-  }
-  
-  .slider::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
-    background: #4CAF50; /* Green background */
-    cursor: pointer; /* Cursor on hover */
-  }
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Code for Stars */
+.checked {
+  color: orange;
+}
+
+/* Code for Reviews and how they appear next to logos*/
+.reviews{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Video commercial code */
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 200px;
+
+
+}

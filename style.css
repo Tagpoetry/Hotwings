@@ -41,6 +41,7 @@ body {
     margin-right: auto;
 }
 
+/* Home Page " Find Nearest Hotwing button */
 .example_e {
     border: none;
     background:#FB5607;
@@ -51,6 +52,8 @@ body {
     border-radius: 6px;
     display: inline-block;
     transition: all 0.3s ease 0s;
+    align-items: center;
+    justify-content: center;
     }
 
     .example_e:hover {
@@ -206,7 +209,7 @@ body {
   transform: rotateY(180deg);
 }
 
-/* Code for Stars */
+/* Code for Star Ratings */
 .checked {
   color: orange;
 }
@@ -215,6 +218,8 @@ body {
 .reviews{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Video commercial code */

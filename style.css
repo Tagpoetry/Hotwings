@@ -235,3 +235,8 @@ body {
 .checked {
   color: orange;
 }
+
+.reviews{
+  display: flex;
+  flex-direction: row;
+}
